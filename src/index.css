@@ -1,0 +1,55 @@
+body {
+    background-image: url(../src/assets/pictures/uwe-conrad-nAAGfp-jkEQ-unsplash.jpg) ;
+    font-family: 'Raleway', sans-serif;
+}
+
+.all {
+    background-color: rgba(0, 0, 0, 0.123);
+    color: rgb(227, 231, 255);
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 600px;
+    border-radius: 20px;
+    top: calc(25% - 100px);
+    left: calc(50% - 150px);
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+    
+}
+
+.icono {
+    
+    animation : float 3s linear infinite;
+}
+
+.change{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(235, 82, 82);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tempnum{
+    color: red;
+}
+
+.title{
+    color: rgb(19, 10, 10);
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(1rem)
+    }
+
+ }
